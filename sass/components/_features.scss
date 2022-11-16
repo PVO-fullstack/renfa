@@ -1,0 +1,30 @@
+.features {
+  background-color: antiquewhite;
+}
+
+.features__title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.features__list {
+@extend %--list;
+display: flex;
+gap: 50px;
+justify-content: center;
+}
+
+.features__item {
+display: flex;
+align-items: center;
+  width: 200px;
+  height: 150px;
+}
+
+.features__link {
+  @extend %--link;
+  color: blue;
+  font-size: 20px;
+  font-weight: 400;
+}

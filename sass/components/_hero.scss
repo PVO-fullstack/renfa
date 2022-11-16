@@ -1,0 +1,43 @@
+.hero {
+  background-color: aqua;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.title {
+  @extend %--title;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+ 
+}
+
+.hero_btn {
+  display: block;
+margin: 30px auto;
+  color: brown;
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.viber {
+  display: inline-block;
+  margin: 20px 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 20px 30px;
+  width: auto;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
+}
+
+.viber__link {
+  @extend %--link;
+  color: currentColor;
+}

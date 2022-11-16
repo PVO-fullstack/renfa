@@ -1,0 +1,53 @@
+body {
+  color: rgb(7, 48, 48);
+  background-color: #ccc;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  @extend %--link;
+  color: blue;
+  font-size: 35px;
+  font-weight: 700;
+  }
+
+.nav {
+  margin-left: 90px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav__list {
+  @extend %--list;
+display: flex;
+justify-content: center;
+gap: 200px;
+}
+
+.nav__link--link {
+  @extend %--link;
+    color: black;
+}
+
+.address {
+  margin-left: 30px;
+}
+
+.address__list {
+  @extend %--list;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+.address__link {
+  @extend %--link;
+}
+
