@@ -1,0 +1,30 @@
+.car {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: burlywood
+}
+
+.car__list {
+  @extend %--list;
+  display: flex;
+  flex-wrap: wrap;
+gap: 50px;
+}
+
+.car__title {
+  @extend %--title;  
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.car__item {
+
+}
+
+.car__icon {
+  --color4: burlywood;
+  --color34: red;
+  }

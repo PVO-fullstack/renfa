@@ -1,4 +1,5 @@
 .features {
+  margin-top: 50px;
   background-color: antiquewhite;
 }
 
@@ -11,20 +12,16 @@
 .features__list {
 @extend %--list;
 display: flex;
-gap: 50px;
+gap: 80px;
 justify-content: center;
 }
 
 .features__item {
 display: flex;
 align-items: center;
-  width: 200px;
+  width: 300px;
   height: 150px;
-}
-
-.features__link {
-  @extend %--link;
-  color: blue;
+   color: blue;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 400; 
 }

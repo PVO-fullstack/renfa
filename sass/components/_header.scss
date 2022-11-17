@@ -31,7 +31,7 @@ justify-content: center;
 gap: 200px;
 }
 
-.nav__link--link {
+.nav__link {
   @extend %--link;
     color: black;
 }
